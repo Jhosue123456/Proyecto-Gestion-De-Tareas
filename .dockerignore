@@ -1,0 +1,25 @@
+# Git
+.git
+.gitignore
+
+# Python / Django
+**/__pycache__/
+**/*.py[cod]
+**/*.venv/
+**/env/
+**/db.sqlite3
+
+# Node / Next.js
+**/node_modules/
+**/.next/
+**/out/
+**/build/
+
+# Variables sensibles y Docker
+**/.env
+docker-compose.yml
+.dockerignore
+
+# Otros
+.vscode/
+.DS_Store
