@@ -143,9 +143,18 @@ USE_TZ = True
 STATIC_URL = 'static/'
 
 CORS_ALLOWED_ORIGINS = [
-    "https://tu-proyecto.vercel.app",
+    "https://proyecto-gestion-de-tareas-b5lz.vercel.app",
     "http://localhost:3000",
     "http://127.0.0.1:3000",
+]
+
+CORS_ALLOW_METHODS = [
+    "DELETE",
+    "GET",
+    "OPTIONS",
+    "PATCH",
+    "POST",
+    "PUT",
 ]
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
